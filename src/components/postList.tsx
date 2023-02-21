@@ -128,53 +128,5 @@ const styles = StyleSheet.create({
   headerText: {
     padding: 16,
   },
-  iconButton: {
-    color: 'white',
-  },
-  live: {
-    flexDirection: 'row',
-    position: 'absolute',
-    right: 15,
-    top: 10,
-  },
-  timerContainer: {
-    flexDirection: 'row',
-    position: 'absolute',
-    alignContent: 'center',
-    alignItems: 'center',
-  },
-
-  timer: {
-    color: 'white',
-  },
-  textLive: {
-    color: 'white',
-    fontWeight: 'bold',
-    paddingLeft: 10,
-  },
-  textViewers: {
-    color: 'white',
-    fontWeight: 'bold',
-    paddingLeft: 30,
-  },
-  iconCamera: {
-    color: 'white',
-  },
-  frontContainer: {
-    width: '100%',
-    position: 'absolute',
-    zIndex: 0,
-    left: 0,
-    right: 0,
-  },
-
-  slide2: {
-    flex: 1,
-  },
-  wrapperContainer: {
-    width: '100%',
-    position: 'absolute',
-    bottom: 0,
-  },
 });
 export default PostList;
