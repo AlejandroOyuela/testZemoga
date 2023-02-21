@@ -1,33 +1,37 @@
 # Movile Test Zemoga 
 
-basic implementation of a PostList app that fetches data from a remote API and displays a list of posts. The user can also mark posts as favorites, delete them or remove non-favorite ones
+Implementación básica de una aplicación que obtiene datos de una API remota y muestra una lista de publicaciones. El usuario también puede marcar publicaciones como favoritas, borrarlas o eliminar las que no lo son.
 
-Here is a brief summary of the code:
+Este es un breve resumen del proyecto:
 
-App.tsx: The root component of the app. It uses createStackNavigator to create a stack of screens for the app. It includes two screens: PostList and PostDetails.
+App.tsx: El componente raíz de la app. Utiliza createStackNavigator para crear una pila de pantallas para la aplicación. Incluye dos pantallas: PostList y PostDetails.
 
-PostList.tsx: A component that displays a list of posts. It fetches the list of posts from a remote API using Axios and stores them in the state. The state also includes an array of favorite post IDs. The component renders each post using the PostItem component and allows the user to mark a post as a favorite, delete it or remove non-favorite posts.
+PostList.tsx: Un componente que muestra una lista de publicaciones. Obtiene la lista de publicaciones de una API remota mediante Axios y las almacena en el estado. El estado también incluye una matriz de ID de entradas favoritas. El componente muestra cada entrada utilizando el componente PostItem y permite al usuario marcar una entrada como favorita, borrarla o eliminar entradas no favoritas.
 
-PostItem.tsx: A component that renders a single post item. It receives the post data as props and displays the title, user ID, and a "favorite" icon that changes depending on whether the post is marked as a favorite. It also includes a "delete" icon that allows the user to delete the post.
+PostItem.tsx: Un componente que renderiza un único post. Recibe los datos de la entrada como props y muestra el título, el ID de usuario y un icono de "favorito" que cambia dependiendo de si la entrada está marcada como favorita. También incluye un icono "eliminar" que permite al usuario borrar la entrada.
 
-PostDetails.tsx: A component that displays the details of a single post. It receives the post data as props and fetches the list of comments for that post from a remote API using Axios. The component renders the post title, body, and the list of comments.
-Installation
+PostDetails.tsx: Un componente que muestra los detalles de un único post. Recibe los datos de la entrada como props y obtiene la lista de comentarios de esa entrada de una API remota mediante Axios. El componente muestra el título de la entrada, el cuerpo y la lista de comentarios.
+
+Instalación 
 ------------
 
-    $ clone this repo
+    $ Clonar el repositorio
     $ npm install
+    $ para mac instalar pods npx pod-install ios 
     $ react-native run-android
     $ react-native run-ios
 
 
-External components
+Librerías 
 ------------
 
-* [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
-* [react-native-orientation](https://github.com/yamill/react-native-orientation)
-* [react-native-side-menu](https://github.com/react-native-community/react-native-side-menu)
-* [react-native-swiper](https://github.com/leecade/react-native-swiper)
-* [react-native-tab-view](https://github.com/mariodev12/react-native-tab-view/)
-* [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
-* [react-native-video-controls](https://github.com/mariodev12/react-native-video-controls/)
-* [react-navigation](https://github.com/react-community/react-navigation)
+* RNTL: React Native Testing Library (RNTL) es una solución ligera para probar componentes React Native. Proporciona funciones de utilidad ligeras en la parte superior de react-test-renderer , de una manera que fomenta mejores prácticas de pruebas.
+* Jest: Jest es un framework de pruebas de JavaScript diseñado para garantizar la corrección de cualquier código JavaScript.
+* Axios: alternativa que nos brinda multitud de ventajas
+
+- La API es unificada para las solicitudes Ajax.
+- Está optimizado para facilitar el consumo de servicios web, API REST y que devuelvan datos JSON.
+- De fácil utilización y como complemento perfecto para las páginas convencionales.
+- Pesa poco, apenas 13KB minimizado. Menos aún si se envía comprimido al servidor.
+- Compatibilidad con todos los navegadores en sus versiones actuales.
+* React Native Vector Icons: Librería para manejo de estilos con más de 3000 íconos de libre uso.
