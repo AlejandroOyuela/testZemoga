@@ -27,11 +27,5 @@ Librerías
 
 * RNTL: React Native Testing Library (RNTL) es una solución ligera para probar componentes React Native. Proporciona funciones de utilidad ligeras en la parte superior de react-test-renderer , de una manera que fomenta mejores prácticas de pruebas.
 * Jest: Jest es un framework de pruebas de JavaScript diseñado para garantizar la corrección de cualquier código JavaScript.
-* Axios: alternativa que nos brinda multitud de ventajas
-
-- La API es unificada para las solicitudes Ajax.
-- Está optimizado para facilitar el consumo de servicios web, API REST y que devuelvan datos JSON.
-- De fácil utilización y como complemento perfecto para las páginas convencionales.
-- Pesa poco, apenas 13KB minimizado. Menos aún si se envía comprimido al servidor.
-- Compatibilidad con todos los navegadores en sus versiones actuales.
+* Axios: alternativa que nos brinda multitud de ventajas como unificación para las solicitudes Ajax y compatibilidad con todos los navegadores actuales
 * React Native Vector Icons: Librería para manejo de estilos con más de 3000 íconos de libre uso.
