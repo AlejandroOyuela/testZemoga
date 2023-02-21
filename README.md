@@ -1,4 +1,4 @@
-# Movile Test Zemoga 
+# Mobile Test Zemoga 
 
 Implementación básica de una aplicación que obtiene datos de una API remota y muestra una lista de publicaciones. El usuario también puede marcar publicaciones como favoritas, borrarlas o eliminar las que no lo son.
 
